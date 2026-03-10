@@ -74,7 +74,7 @@ improv_serial:
 i2c:
 -  id: bus_a
    sda: 6
-   scl: 7
+   scl: 10
    scan: true
 
 output:
