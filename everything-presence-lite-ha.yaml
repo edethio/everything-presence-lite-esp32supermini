@@ -15,12 +15,12 @@ substitutions:
     firmware_channel: "stable"
     model: "everything-presence-lite"
 
-#update:
-#  - platform: http_request
-#    id: update_http_request
-#    name: Everything Presence Lite Firmware
-#    source: https://everythingsmarthome.github.io/everything-presence-lite/everything-presence-lite-ha-manifest.json
-#    disabled_by_default: true
+update:
+  - platform: http_request
+    id: update_http_request
+    name: Everything Presence Lite Firmware
+    source: https://everythingsmarthome.github.io/everything-presence-lite/everything-presence-lite-ha-manifest.json
+    disabled_by_default: true
 
 dashboard_import:
   package_import_url: github://edethio/everything-presence-lite-esp32supermini/everything-presence-lite-ha.yaml@ESP32-c3
