@@ -82,6 +82,7 @@ light:
     name: ESP32 LED
     id: esp32_led
     pin: GPIO8
+    inverted: True
     internal: False
     restore_mode: ALWAYS_OFF
     entity_category: config
