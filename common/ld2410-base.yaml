@@ -7,7 +7,7 @@ uart:
   id: uart_bus
   baud_rate:  256000
   rx_pin: 4
-  tx_pin: 3
+  tx_pin: 5
   parity: NONE
   stop_bits: 1
 
@@ -24,7 +24,7 @@ binary_sensor:
       name: Still Target
       entity_category: diagnostic
   - platform: gpio
-    pin: 18
+    pin: 1
     name: Occupancy GPIO
     device_class: Occupancy
     entity_category: diagnostic
